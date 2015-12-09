@@ -19,8 +19,8 @@
     <script src="cordova.js"></script>
 
     <!-- your app's js -->
-    <script src="/node_modules/systemjs/dist/system-polyfills.js"></script>
-    <script src="/node_modules/systemjs/dist/system.js"></script>
+    <script src="js/systemjs/system-polyfills.js"></script>
+    <script src="js/systemjs/system.js"></script>
 
     <script src="https://timezonedb.googlecode.com/files/timezonedb.js" type="text/javascript"></script>
 
@@ -35,7 +35,7 @@
         paths : { "*" : "*.js" },
         map : {
             'three' : 'js/three_cardboard.min',
-            'angular2/angular2': '/node_modules/angular2/bundles/angular2.min'
+            'angular2/angular2': 'js/angular2/angular2.min'
         },
         meta: {
             'angular2/angular2' : {
